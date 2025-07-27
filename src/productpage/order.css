@@ -1,0 +1,45 @@
+.order-layer{
+    display: grid;
+    grid-template-rows: 50px 50px 1fr;
+    margin-top: 10px;
+}
+.size{
+    display: flex;
+    justify-content: center;
+}
+.size button{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #f7f5f0;
+}
+.size button:hover{
+    background-color: black;
+    color: #f7f5f0;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+}
+.buy button{
+    font-size: 20px;
+    font-weight: 700;
+    width: 250px;
+    height: 40px;
+    background-color: grey;
+    color: #f7f5f0;
+    border: none;
+    border-radius: 10px;
+}
+.buy button:hover{
+    background-color: black;
+    color: white;
+}
+
+.desc h2{
+    font-size: 20px;
+    font-weight: 700;
+}

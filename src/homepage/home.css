@@ -1,0 +1,144 @@
+
+.main{
+    position: relative;
+}
+.navbars{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #1a1a1a;
+}
+.navbars ul{
+    display: flex;
+    margin-left: 0;
+}
+.navbars ul li{
+    list-style: none;
+    color: white;
+    margin: 5px 50px 5px 0;
+}
+.navbars ul li:hover{
+    color: #e10600;
+    cursor: pointer;
+}
+.Search-icon i{
+    position: absolute;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.Search-icon i:hover{
+    color: #e10600;
+    cursor: pointer;
+}
+.content{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.hero{
+    background-image: url('./imgs/f1.jpg');
+    background-color: black;
+    width: 1fr;;
+    height: 300px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #fdfcf8;
+}
+.hero button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+.hero button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.categories{
+    padding-left: 30px;
+}
+.first-layer{
+    display: flex;
+}
+.card{
+    width: 220px;
+    height: 160px;
+    margin: -30px 30px 20px 30px;
+    background-color: #f1eee7;
+    text-align: center;
+    border-radius: 15px;
+}
+.card i{
+    font-size: 90px;
+}
+.card p{
+    margin-top: 0;
+    font-weight: 700;
+}
+.card:hover{
+    background-color: black;
+    color: #f1eee7 ;
+    cursor: pointer;
+}
+.offer-zone{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: fit-content;
+    margin: 0 90px 0 30px;
+    background-color: #f1eee7;
+    border-radius: 10px;
+}
+.offer-zone:hover{
+    background-color: black;
+    color: #f1eee7;
+    cursor: pointer;
+}
+.offer-zone i{
+    font-size: 40px;
+    margin: 0 20px 0 0;
+}
+.offer-zone h3{
+    font-size: 35px;
+    margin: 5px;
+}
+.account-layer{
+    margin-top: 0;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.signup button,.signin button{
+    width: 100px;
+    height: 40px;
+    background-color: #1a1a1a;
+    color: #f1eee7;
+    border: none;
+    border-radius: 10px;
+    margin: -60px 20px 0 0;
+}
+.signup button:hover,.signin button:hover{
+    background-color: #f1eee7;
+    color: #1a1a1a;
+    cursor: pointer;
+}

@@ -1,0 +1,212 @@
+.cart-page{
+    display: grid;
+    background-color:#f5ead0;
+    grid-template-rows: 30px 100px 1fr;
+    padding: 10px 30px 0 30px;
+}
+.head-layer{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.head-left h3{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head-right{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin:0 20px 0 0;
+    display: flex;
+    align-items: center;
+}
+.heart{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.contact{
+    font-size: 30px;
+    margin-left: 15px;
+}
+.heart:hover{
+    color: red;
+}
+.title-layer{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+}
+.title-layer i{
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    margin: 20px 0 0 30px;
+}
+.title-layer i:hover{
+    color: brown;
+}
+.title-layer h1{
+    margin-top: 5px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-content{
+    display: grid;
+    grid-template-rows: 75px 1fr 80px 50px 10px 1fr;
+}
+.product-head{
+    display: flex;
+    position: relative;
+    border-top: 1px solid black;
+}
+.pro{
+    display: block;
+}
+.pro h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.detai{
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.detai ul{
+    display: flex;
+}
+.detai ul li{
+    font-size: 25px;
+    font-weight: 700;
+    list-style: none;
+    margin:0 100px 0 0;
+}
+.product-price{
+    display: flex;
+    border-top: 1px solid black;
+}
+.product-price img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 30px 10px 10px;
+    margin-left: 20px;
+}
+.product-price h3{
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+}
+.product-price p{
+    margin: 50px 0 0 73px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.quantity{
+    margin:50px 0 0 130px;
+    display: flex;
+}
+.quantity button{
+    width: 33px;
+    height: 33px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 1000;
+    padding: 5px;
+}
+.quantity button:hover{
+    background-color: black;
+    color: #f5ead0;
+}
+.quantity input{
+    width: 27px;
+    height: 27px;
+    border: none;
+    font-weight: 1000;
+    text-align: center;
+    background-color: #f5ead0;
+}
+.quantity select{
+    width: 33px;
+    height: 33px;
+    margin-left: 110px;
+    border: 2px solid black;
+    border-radius: 5px;
+    list-style: none;
+}
+.quantity select:hover{
+    background-color: black;
+    color: #f5ead0;
+}
+.quantity select option{
+    background-color:#f5ead0;
+    color:black;
+    border: none;
+}
+.quantity p{
+    margin: 0 0 0 120px;
+}
+.price-calcu{
+    display: block;
+    margin-top: 0;
+    border-top: 1px solid black;
+}
+.sub-total,.delivery,.total-amount{
+    display: flex;
+    position: relative;
+}
+.sub-total p,.total-amount p,.delivery p{
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0 0 20px;
+}
+.sub-total h4,.total-amount h4,.delivery h4{
+    position: absolute;
+    right: 0;
+    margin: 15px 20px 0 0;
+}
+.total-amount{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.order-button{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 0 0;
+}
+.order-button button{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: red;
+    color: #f5ead0;
+}
+.order-button button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.about-us{
+    text-align: center;
+    margin-top: 0;
+}
+.about-us p{
+    font-size: 20px;
+}
+.about-us p:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
