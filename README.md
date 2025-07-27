@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# THROTTLE-THEORY
+This is a simple e-commerce website built using React.js, JavaScript, HTML, and CSS. The website allows users to browse products, view product details, and add items to a shopping cart.
+>>>>>>> ec7283a5b5ed1be7f4b1b5ee0ba1db37aee7921d
